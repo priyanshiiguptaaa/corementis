@@ -1,3 +1,8 @@
+Here is a **professional and well-formatted `README.md`** file for your **CoreMentis** project, optimized for clarity, structure, and developer-friendliness on platforms like GitHub:
+
+---
+
+```markdown
 # 🌐 CoreMentis: AI-Powered Educational Platform with Engagement Analytics
 
 ![CoreMentis Logo](https://img.shields.io/badge/CoreMentis-Educational%20AI%20Platform-blue?style=for-the-badge)
@@ -65,12 +70,12 @@
 CoreMentis/
 ├── corementis/
 │   ├── backend/               # Python Flask backend
-│   │   ├── chatbot_api.py
-│   │   ├── chatbot_api_optimized.py
-│   │   ├── context_manager.py
-│   │   ├── content_scraper.py
-│   │   ├── openvino_optimization.py
-│   │   ├── text_to_speech.py
+│   │   ├── chatbot\_api.py
+│   │   ├── chatbot\_api\_optimized.py
+│   │   ├── context\_manager.py
+│   │   ├── content\_scraper.py
+│   │   ├── openvino\_optimization.py
+│   │   ├── text\_to\_speech.py
 │   │   └── requirements.txt
 │   │
 │   ├── frontend/              # React Frontend
@@ -81,9 +86,9 @@ CoreMentis/
 │   │   ├── src/pages/
 │   │   └── src/services/
 │   │
-│   ├── engagement_data/
+│   ├── engagement\_data/
 │   ├── models/
-│   └── *.bat scripts for startup
+│   └── \*.bat scripts for startup
 └── README.md
 
 ````
@@ -233,3 +238,4 @@ Licensed under the MIT License – feel free to use, modify, and distribute.
 ---
 
 > *Empowering the future of learning through AI and insight-driven education – CoreMentis*
+
