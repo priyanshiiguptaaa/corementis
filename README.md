@@ -1,8 +1,3 @@
-Here is a **professional and well-formatted `README.md`** file for your **CoreMentis** project, optimized for clarity, structure, and developer-friendliness on platforms like GitHub:
-
----
-
-```markdown
 # 🌐 CoreMentis: AI-Powered Educational Platform with Engagement Analytics
 
 ![CoreMentis Logo](https://img.shields.io/badge/CoreMentis-Educational%20AI%20Platform-blue?style=for-the-badge)
