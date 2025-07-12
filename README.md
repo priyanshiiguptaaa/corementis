@@ -1,15 +1,18 @@
+
 # 🌐 CoreMentis: AI-Powered Educational Platform with Engagement Analytics
 
-![CoreMentis Logo](https://img.shields.io/badge/CoreMentis-Educational%20AI%20Platform-blue?style=for-the-badge)
+![CoreMentis Badge](https://img.shields.io/badge/CoreMentis-Educational%20AI%20Platform-blue?style=for-the-badge)
 
-> **CoreMentis** is a next-generation AI-powered educational ecosystem combining advanced learning assistance, real-time engagement tracking, and optimized performance through Intel’s OpenVINO and Groq LLM. Built for students, teachers, and institutions to elevate learning outcomes.
+> **CoreMentis** is an AI-driven educational ecosystem that integrates interactive learning tools, real-time engagement tracking, and performance optimization using **Intel’s OpenVINO** and **Groq LLM**. Designed for students, educators, and institutions, CoreMentis redefines how learning and teaching interact in the digital age.
+
+🔗 [GitHub Repository](https://github.com/priyanshi789/CoreMentis) | 📺 [YouTube Demo](https://www.youtube.com/watch?v=LBFWbGwDSCs) | 📄 [Documentation Folder (Google Drive)](https://drive.google.com/drive/folders/1KHaYg_jnk79GAEZsNvbVlf-lGfcquPkr?usp=sharing)
 
 ---
 
-## 🚀 Tech Stack & Tools
+## 🚀 Tech Stack
 
-[![React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
-[![Python](https://img.shields.io/badge/Backend-Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)
+[![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react&style=flat-square)](https://reactjs.org/)
+[![Python](https://img.shields.io/badge/Backend-Python-3776AB?logo=python&style=flat-square)](https://www.python.org/)
 [![OpenVINO](https://img.shields.io/badge/Optimized%20with-OpenVINO-0071C5?style=flat-square&logo=intel)](https://docs.openvino.ai/)
 [![Groq](https://img.shields.io/badge/AI-Groq%20LLM-00BFFF?style=flat-square)](https://groq.com/)
 
@@ -18,43 +21,44 @@
 ## 🌟 Features
 
 ### 🤖 AI Educational Assistant
-- 💬 Groq LLM (Llama3-8b) chatbot for contextual support
-- 🗣️ Speech-to-Text (Whisper via OpenVINO)
-- 🖼️ Image-to-Text (EasyOCR via OpenVINO)
-- 🔊 Text-to-Speech (TTS for accessibility)
-- 🧠 Conversation tracking with topic summarization
-- 🔍 Smart content search for learning materials
+- 💬 Llama3-8B powered chatbot via Groq LLM
+- 🗣️ Voice-based interaction (Speech-to-Text using OpenVINO Whisper)
+- 🖼️ OCR (Image-to-Text via EasyOCR)
+- 🔊 Text-to-Speech for inclusive learning
+- 🧠 Context tracking with intelligent summarization
+- 🔍 Smart content & note search
 
 ### 📊 Engagement Analytics
-- 🔴 Live student engagement monitoring
-- 📈 Dashboards for grades, attendance, assignment tracking
-- ⚠️ Early risk detection for at-risk students
-- 📊 Actionable insights for students & teachers
+- 🧍 Real-time student engagement detection
+- 📈 Dashboards for performance, attendance, and risk metrics
+- ⚠️ Early warning for at-risk students
+- 📊 Insights tailored for both educators and learners
 
 ### 🎓 Learning Management System (LMS)
-- 👥 Role-based access: Admin, Teacher, Student
-- 📚 Course & assignment management
-- 📣 Announcements, notifications, messaging
-- 📉 Reduced admin load (70% less overhead)
+- 👥 Role-based system: Admin, Teacher, Student
+- 📚 Course creation, assignment handling
+- 📣 Notifications, messaging, announcements
+- 🗂️ Document upload and media integration
+- ⚡ 70% reduction in admin overhead
 
 ### ⚙️ Technical Optimizations
-- 🚀 OpenVINO: 65% faster AI inference
-- 📉 Memory optimization via context window management
-- ⚡ INT8 quantization for model speedup
-- 📱 Runs on low-end devices (cross-platform compatible)
+- 🚀 OpenVINO-accelerated inference (65% faster)
+- 🧮 INT8 quantization for optimized performance
+- 📉 Lower memory footprint with custom context manager
+- 🖥️ Runs on low-spec systems (cross-platform)
 
 ---
 
 ## 📈 Impact Metrics
 
-| Metric | Improvement |
-|--------|-------------|
-| Student Engagement | +27% |
-| Assignment Completion | +32% |
-| Attendance | +41% |
-| Course Dropout Rate | -42% |
-| Admin Overhead | -70% |
-| GPA Uplift | +0.4 points |
+| Metric                   | Improvement |
+|--------------------------|-------------|
+| Student Engagement       | +27%        |
+| Assignment Completion    | +32%        |
+| Attendance               | +41%        |
+| Dropout Rate             | -42%        |
+| Admin Overhead           | -70%        |
+| GPA Improvement          | +0.4 points |
 
 ---
 
@@ -73,7 +77,7 @@ CoreMentis/
 │   │   ├── text\_to\_speech.py
 │   │   └── requirements.txt
 │   │
-│   ├── frontend/              # React Frontend
+│   ├── frontend/              # React frontend
 │   │   ├── src/components/
 │   │   │   ├── common/
 │   │   │   ├── student/
@@ -96,11 +100,11 @@ CoreMentis/
 
 #### Backend
 - Python 3.8+
-- AVX2-capable CPU for OpenVINO
-- Optional: NVIDIA GPU
+- AVX2-capable CPU (for OpenVINO)
+- Optional: NVIDIA GPU (for training)
 
 #### Frontend
-- Node.js 14+ (Node 16 recommended)
+- Node.js 14+ (v16 recommended)
 - npm or yarn
 
 ---
@@ -110,26 +114,27 @@ CoreMentis/
 ### 🔁 Backend Setup
 
 ```bash
-# Clone the repo
-git clone https://github.com/yourusername/CoreMentis.git
+# Clone the repository
+git clone https://github.com/priyanshi789/CoreMentis.git
 cd CoreMentis/corementis/backend
 
-# Create and activate virtual environment
+# Create a virtual environment
 python -m venv venv
-# Windows
+# Activate it
+# On Windows:
 venv\Scripts\activate
-# macOS/Linux
+# On macOS/Linux:
 source venv/bin/activate
 
-# Install Python dependencies
+# Install dependencies
 pip install -r requirements.txt
 
 # Set Environment Variables
-export GROQ_API_KEY=your_groq_api_key  # or use .env file
+export GROQ_API_KEY=your_groq_api_key  # or use a .env file
 
-# Run Backend
+# Run backend server
 python chatbot_api_optimized.py
-# Runs on http://localhost:5001
+# App runs on: http://localhost:5001
 ````
 
 ### 🖥️ Frontend Setup
@@ -139,46 +144,46 @@ cd ../frontend
 npm install     # or yarn install
 npm start       # or yarn start
 
-# Visit: http://localhost:3000
+# App runs on: http://localhost:3000
 ```
 
 ---
 
 ## 🧪 Demo Credentials
 
-| Role      | Email                                                   | Password   | Permissions                   |
-| --------- | ------------------------------------------------------- | ---------- | ----------------------------- |
-| Admin     | [admin@corementis.com](mailto:admin@corementis.com)     | admin123   | Full access                   |
-| Teacher   | [teacher@corementis.com](mailto:teacher@corementis.com) | teacher123 | Course + Student Management   |
-| Student   | [student@corementis.com](mailto:student@corementis.com) | student123 | LMS + Chatbot + Analytics     |
-| Test User | [test@corementis.com](mailto:test@corementis.com)       | test123    | Limited student functionality |
+| Role    | Email                                                   | Password     | Access                          |
+| ------- | ------------------------------------------------------- | ------------ | ------------------------------- |
+| Admin   | [admin@corementis.com](mailto:admin@corementis.com)     | `admin123`   | Full access                     |
+| Teacher | [teacher@corementis.com](mailto:teacher@corementis.com) | `teacher123` | Assignment & student management |
+| Student | [student@corementis.com](mailto:student@corementis.com) | `student123` | Learning tools + analytics      |
+| Guest   | [test@corementis.com](mailto:test@corementis.com)       | `test123`    | Limited student access          |
 
 ---
 
-## 🎯 API Endpoints
+## 📡 API Endpoints
 
-### 🔌 Chatbot
+### 🔌 Chatbot API
 
-| Method | Endpoint                      | Description         |
-| ------ | ----------------------------- | ------------------- |
-| GET    | `/api/chatbot/status`         | Check API health    |
-| POST   | `/api/chatbot/message`        | Chatbot query       |
-| POST   | `/api/chatbot/speech-to-text` | Voice to text       |
-| POST   | `/api/chatbot/image-to-text`  | OCR text extraction |
-| POST   | `/api/chatbot/text-to-speech` | Get audio from text |
-| GET    | `/api/chatbot/history`        | View user history   |
-| POST   | `/api/chatbot/clear`          | Clear history       |
+| Method | Endpoint                      | Purpose                |
+| ------ | ----------------------------- | ---------------------- |
+| GET    | `/api/chatbot/status`         | API Health Check       |
+| POST   | `/api/chatbot/message`        | Send chatbot message   |
+| POST   | `/api/chatbot/speech-to-text` | Convert speech to text |
+| POST   | `/api/chatbot/image-to-text`  | OCR from image         |
+| POST   | `/api/chatbot/text-to-speech` | Get TTS output         |
+| GET    | `/api/chatbot/history`        | View chat history      |
+| POST   | `/api/chatbot/clear`          | Clear chat history     |
 
 ---
 
 ## 🧠 Models & AI Stack
 
-* **Groq LLM API** – Educational conversations with Llama3-8b
-* **OpenVINO Whisper** – Speech recognition (94% accuracy)
-* **EasyOCR (OpenVINO)** – Image text extraction (96% accuracy)
-* **Text-to-Speech Engine** – Natural language audio output
-* **Custom Context Manager** – Topic tracking & summarization
-* **Quantization** – Efficient INT8 inference models
+* **Groq LLM (Llama3-8B)** – AI-powered educational chatbot
+* **Whisper (OpenVINO Optimized)** – Speech recognition (\~94% accuracy)
+* **EasyOCR (OpenVINO Optimized)** – Image OCR (\~96% accuracy)
+* **Text-to-Speech Engine** – Audio conversion of responses
+* **Custom Context Manager** – Memory-efficient chat tracking
+* **Quantized Models (INT8)** – Low-latency, optimized performance
 
 ---
 
@@ -186,51 +191,58 @@ npm start       # or yarn start
 
 ### Student Dashboard
 
-* Dynamic greetings & reminders
-* Upcoming deadlines
-* Performance graphs
+* Personalized greetings
+* Visual progress tracking
+* Assignment deadlines & alerts
 
 ### Teacher Dashboard
 
-* Assignment manager
-* Student analytics
-* Engagement tracking tools
+* Classroom analytics
+* Engagement heatmaps
+* Submission tracking
 
-### Chatbot
+### AI Assistant
 
-* Voice / Text / Image inputs
+* Multimodal input: text, voice, image
 * Educational search integration
-* Text-to-speech support
+* Accessibility-friendly TTS
 
 ---
 
-## 🛠️ Advanced Configuration
+## 🛠️ Environment Configuration
 
-### 🔐 Backend
+| Variable             | Description                  | Default     |
+| -------------------- | ---------------------------- | ----------- |
+| `GROQ_API_KEY`       | API Key for Groq LLM         | Required    |
+| `FLASK_ENV`          | Environment (dev/production) | development |
+| `FLASK_PORT`         | Backend port                 | 5001        |
+| `OPENVINO_DEVICE`    | Inference device (CPU/GPU)   | CPU         |
+| `MAX_HISTORY_LENGTH` | Conversation memory depth    | 20          |
 
-| Variable             | Description             | Default     |
-| -------------------- | ----------------------- | ----------- |
-| `GROQ_API_KEY`       | Groq LLM API Key        | (Required)  |
-| `FLASK_ENV`          | dev or production       | development |
-| `FLASK_PORT`         | Port to run Flask app   | 5001        |
-| `OPENVINO_DEVICE`    | Target device (CPU/GPU) | CPU         |
-| `MAX_HISTORY_LENGTH` | Chat memory depth       | 20          |
+---
+
+## 📄 Resources
+
+* 📺 **YouTube Demo**: [Watch on YouTube](https://www.youtube.com/watch?v=LBFWbGwDSCs)
+* 📄 **Documentation (Drive)**: [View Folder](https://drive.google.com/drive/folders/1KHaYg_jnk79GAEZsNvbVlf-lGfcquPkr?usp=sharing)
+* 🧠 **Groq API Docs**: [https://groq.com/](https://groq.com/)
+* 📘 **OpenVINO Documentation**: [https://docs.openvino.ai](https://docs.openvino.ai/latest/index.html)
 
 ---
 
 ## 📣 Contact & Contributions
 
-* 🤝 Open to contributors!
-* 📧 Email: [support@corementis.com](mailto:support@corementis.com)
-* 💡 For feature requests or bug reports, please [open an issue](https://github.com/yourusername/CoreMentis/issues)
+* 💻 Contribute via [GitHub Issues](https://github.com/priyanshi789/CoreMentis/issues)
+* ✉️ Email: [support@corementis.com](mailto:support@corementis.com)
+* 🌍 Project Repo: [github.com/priyanshi789/CoreMentis](https://github.com/priyanshi789/CoreMentis)
 
 ---
 
 ## 📜 License
 
-Licensed under the MIT License – feel free to use, modify, and distribute.
+This project is licensed under the **MIT License** – you’re free to use, modify, and distribute with attribution.
 
 ---
 
-> *Empowering the future of learning through AI and insight-driven education – CoreMentis*
+> *Empowering future-ready classrooms through intelligence, insight, and innovation — CoreMentis.*
 
